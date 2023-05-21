@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Open Sans", sans-serif;
+    /*     sans-serif для того чтобы текст был без засечек, это обязательно, иначе не работает*/
+    src:
+        local('Open Sans'),
+        url('../fonts/OpenSans-VariableFont_wdth,wght.ttf')
+}
+
+
+
+
+
+
+
+
+
+.wrap{
+    min-height: 100vh;
+    background: #171a1d;
+}
+
+.menu{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo__img{
+    max-width: 1000px;
+}
+
+li{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    list-style-type: disc;
+}
+
+.first-update{
+    padding-left: 30px;
+}
