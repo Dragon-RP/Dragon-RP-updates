@@ -44,3 +44,38 @@ li{
 .first-update{
     padding-left: 30px;
 }
+
+
+
+.gif__img{
+    height: 232px;
+}
+
+.first-update{
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li{
+   font-family: 'Open Sans', sans-serif; 
+}
+
+
+.first-update__text{
+    padding-bottom: 30px;
+}
+
+.for-u{
+    padding-top: 22px;
+}
+
+
+
+
